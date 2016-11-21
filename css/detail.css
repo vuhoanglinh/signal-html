@@ -1,0 +1,60 @@
+.row-detail{float: left; width: 620px; padding: 20px}
+.row-p {clear: both; float: left; width: 100%; margin-bottom: 20px; font-size: 14px; font-weight: 300; background: #fff; min-height: 170px;}
+.row-p p{margin-top: 10px; margin-bottom: 20px}
+.d-left{width: 300px; float: left}
+.btn-download {margin-top: 20px; display: block}
+.d-left img{max-width: 100%}
+.d-right{width: 290px; margin-left: 20px; float: left;text-align: justify}
+.d-right p{margin: 0}
+.d-right h2, .d-right h3{margin-top: 0; margin-bottom: 15px;}
+.top-tit{color: #505050; font-size: 14px;}
+.title-d{color:#22408a; font-size: 22px;margin-top: 0}
+.font11{font-size: 11px; color:#3c3c3c;}
+.title-m{color: #44598e; font-size: 16px; font-weight: bold}
+.no-margin{margin: 0}
+.mb5{margin-bottom: 5px}
+.mt10 { margin-top: 10px}
+.title-pro { padding-bottom: 5px; border-bottom: 4px solid #0056b3; font-size: 18px; color:#0056b3 }
+.row-detail .col {float: left; width: 300px;}
+.row-detail .col:nth-child(2n){margin-left: 20px}
+.row-detail .col h3{ background:#badcfb; padding: 8px 10px; font-size: 16px; margin: 0 }
+.f-btn{ float: left; width: 123px; padding:8px 10px; border: 2px solid #0056b3; margin: 5px; border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px; -moz-border-radius: 3px; text-align: center; color: #0056b3; font-weight: bold}
+.f-btn:hover, .f-btn:active, .f-btn.active { color: #fff; background: #0056b3; border: border: 2px solid ##0056b3; } 
+.row-lr { margin-left: -5px; margin-right: -5px }
+/*==================================================
+ * effect-shadow
+ * ===============================================*/
+.effect-shadow
+{
+  position: relative;
+}
+.effect-shadow:before, .effect-shadow:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 6px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow:0 13px 10px rgba(119, 119, 119, .8);
+  -moz-box-shadow: 0 13px 10px rgba(119, 119, 119, .8);
+  box-shadow: 0 13px 10px rgba(119, 119, 119, .8);
+  -webkit-transform: rotate(-1deg);
+  -moz-transform: rotate(-1deg);
+  -o-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+}
+.effect-shadow:after
+{
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  transform: rotate(1deg);
+  right: 6px;
+  left: auto;
+}

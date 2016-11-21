@@ -1,0 +1,164 @@
+.content-boder {
+    float: left;
+    width: 658px;
+    border-radius: 5px;
+    border: 1px solid #c8c8c8;
+    margin-bottom: 40px;
+}
+.images-content{
+    background: url(../images/images-content.jpg);
+    width: 658px;
+    height: 86px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #c8c8c8;
+    float: left;
+}
+.images-content p{
+    font-family: 'Osaka', sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    color: #0063d0;
+    padding: 32px 0px 0px 17px;
+}
+.pin-content{
+    width: 136px;
+    height: 28px;
+    background-color: #000;
+    opacity: 0.7;
+    float: right;
+    margin: -29px 55px 0px 0px;
+}
+.pin-content p{
+    font-family: 'Osaka', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    padding: 4px 0px 0px 25px;
+}
+.content-intro{
+    width: 658px;
+    height: 90px;
+    float: left;
+}
+.content-intro p{
+    width: 600px;
+    height: 100%;
+    font-family: 'Osaka', sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    padding: 21px 0px 0px 34px;
+}
+.content-01{
+    width: 630px;
+    height: 135px;
+    background-color: #fff;
+    float: left;
+    margin-left: 14px;
+    border-radius: 5px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.content-01{
+    position: relative;
+}
+.content-01:after{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 20px;
+    right: 5px;
+    left: auto;
+    width: 100%;
+    top: 80%;
+    max-width: 377px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+}
+.content-02{
+    width: 630px;
+    height: 135px;
+    background-color: #fff;
+    float: left;
+    margin: 30px 0px 0px 14px;
+    border-radius: 5px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.content-02{
+    position: relative;
+}
+.content-02:after{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 20px;
+    right: 5px;
+    left: auto;
+    width: 100%;
+    top: 80%;
+    max-width: 377px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+}
+.content-03{
+    width: 630px;
+    height: 135px;
+    background-color: #fff;
+    float: left;
+    margin: 30px 0px 0px 14px;
+    border-radius: 5px;
+}
+.content-left{
+    width: 157px;
+    height: 106px;
+    margin-left: 10px;
+    float: left;
+}
+.content-right{
+    width: 434px;
+    height: 100%;
+    float: right;
+    margin-right: 10px;
+}
+.content-title{
+    width: 434px;
+    height: 42px;
+    border-bottom: 2px solid #0056b3;
+    
+}
+.content-title a{
+    background: url(../images/icon_tick_circle-1.png) no-repeat left center;
+    font-family: 'Osaka', sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-left: 23px;
+    display: block;
+}
+.content-detail{
+    width: 434px;
+}
+.content-detail p{
+    font-family: 'Osaka', sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+

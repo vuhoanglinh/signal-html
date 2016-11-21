@@ -1,0 +1,498 @@
+
+/*!
+ * Design by VietVang, JSC.
+ * Dev: Vu Hoang Linh
+ */
+@import url("fonts.css");
+
+body {
+    font-family: 'Osaka', sans-serif;
+    font-size: 13px;
+    color: #000;
+    margin: 0
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+
+.header{
+    float: left;
+    width: 100%;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-header {
+    color: #a5a4a4;
+    display: block;
+    font-size: 10px;
+    height: 20px;
+    padding-top: 10px;
+}
+.sub-header p {margin: 0}
+.main-header {
+    height: 45px;
+}
+.container {
+    margin: 0 auto;
+    width: 880px;
+    position: relative
+}
+
+.left {width: 380px;}
+.left, .left img, .left p {
+    display: inline-block;
+    vertical-align: top;
+}
+.left p {
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.right{
+    width: 500px;
+    float: right;
+    padding-top: 5px;
+}
+.clearfix {clear: both; }
+.text-left {
+    text-align: left !important
+}
+.text-right {
+    text-align: right !important
+}
+.text-center {
+    text-align: center !important
+}
+.text-justify {
+    text-align: justify !important
+}
+.pull-right {
+    float: right !important;
+}
+.pull-left {
+    float: left !important;
+}
+.search-box {
+    width: 225px;
+    margin-left: 20px;
+}
+.search-box input[type="text"] {
+    width: 173px;
+    height: 23px;
+    background: url(../images/icon_search.jpg) no-repeat left top;
+    border: 1px solid #9e9e9e; 
+    display: inline-block;
+    padding-left: 25px
+    
+}
+.search-box button {
+    background: -webkit-linear-gradient(#fff, #e5e5e5);
+    background: -o-linear-gradient(#fff, #e5e5e5);
+    background: -moz-linear-gradient(#fff, #e5e5e5);
+    background: linear-gradient(#fff, #e5e5e5);
+    display: inline-block;
+    border: 1px solid #9e9e9e;    
+    -moz-border: 1px solid #9e9e9e;
+    -o-border: 1px solid #9e9e9e;    
+    -webkit-border: 1px solid #9e9e9e;
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+
+.button {
+    background: -webkit-linear-gradient(#fff, #e5e5e5);
+    background: -o-linear-gradient(#fff, #e5e5e5);
+    background: -moz-linear-gradient(#fff, #e5e5e5);
+    background: linear-gradient(#fff, #e5e5e5);
+    display: inline-block;
+    border: 1px solid #9e9e9e;    
+    border-radius: 4px;
+    padding: 2px 10px;
+    color: #000;
+}
+
+.button:hover, .button:active, .button.active {
+    background: -webkit-linear-gradient(#fff, #7bb2e1);
+    background: -o-linear-gradient(#fff, #7bb2e1);
+    background: -moz-linear-gradient(#fff, #7bb2e1);
+    background: linear-gradient(#fff, #7bb2e1);
+    border: 1px solid #7bb2e1;
+    color: #0064be
+}
+
+.right ul.inline-button {
+    margin: 0;
+    padding: 0
+}
+.inline-button {
+    list-style: none;    
+}
+.inline-button li {
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+}
+.inline-button li.text {
+    margin-right: 10px;
+    margin-top: 4px;
+}
+.inline-button a.first { 
+    border-radius:  0 4px 4px 0;
+    -webkit-radius:  0 4px 4px 0;
+    -o-radius:  0 4px 4px 0;
+    -moz-radius:  0 4px 4px 0;
+    border-left: none;
+}
+.inline-button a{
+    border-radius: 0;
+    -webkit-radius: 0;
+    -o-radius: 0;
+    -moz-radius: 0;
+}
+.inline-button a.last { 
+    border-radius:  4px 0 0 4px;
+    -webkit-radius: 4px 0 0 4px;
+    -o-radius: 4px 0 0 4px;
+    -moz-radius: 4px 0 0 4px;
+    border-right: none;
+}
+
+.navigation {
+    float: left;
+    width: 100%;
+    background: -webkit-linear-gradient(#2c82cc, #0164be);
+    background: -o-linear-gradient(#2c82cc, #0164be);
+    background: -moz-linear-gradient(#2c82cc, #0164be);
+    background: linear-gradient(#2c82cc, #0164be);
+    height: 40px;
+    box-shadow: 0px -2px 23px -5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px -2px 23px -5px rgba(0,0,0,0.5);
+    -o-box-shadow: 0px -2px 23px -5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px -2px 23px -5px rgba(0,0,0,0.5);
+    border-top: #fff solid 3px;
+    border-bottom: #fff solid 3px;
+}
+.navigation li {
+    float: left;
+    width: 165px;
+    padding: 0;
+    margin: 0;
+    height: 40px
+}
+.navigation li:first-child{
+    width: 164px;
+    border-left: 1px solid #135b9a;
+}
+.navigation li:last-child{
+    width: 164px;
+    border-right: 1px solid #6ca8db;
+}
+.navigation li a{
+    width: 100%;
+    float: left;
+    height: 20px;
+    padding: 10px 0;
+    vertical-align: middle;
+    color: #fff;
+    text-align: center;
+    border-right: 1px solid #135b9a;
+    border-left: 1px solid #6ca8db;
+}
+.navigation li a:hover, .navigation li a:active, .navigation li a.active {
+    background: -webkit-linear-gradient(#001f6c, #00327f);
+    background: -o-linear-gradient(#001f6c, #00327f);
+    background: -moz-linear-gradient(#001f6c, #00327f);
+    background: linear-gradient(#001f6c, #00327f);
+}
+.navigation li.over {
+    width: 220px;
+}
+.wrapper {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.breadcrumb {
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 10px
+}
+
+.breadcrumb li {
+    display: inline-block;
+    padding-right: 15px
+}
+.breadcrumb li.arrow {
+    background: url(../images/arrow.png) no-repeat left center;
+    padding-left: 25px
+}
+.breadcrumb li a {
+    color: #000
+}
+.breadcrumb li a:hover {
+    text-decoration: underline
+}
+
+.main {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+.sidebar {
+    float: left;
+    margin-right: 30px;
+    width: 190px;
+}
+
+.sidebar ul {
+    width: 190px;
+    box-shadow: 0px 5px 23px -13px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 5px 23px -13px rgba(0,0,0,1);
+    -o-box-shadow: 0px 5px 23px -13px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 5px 23px -13px rgba(0,0,0,1);
+}
+
+.sidebar li {
+    float: left;
+    width: 100%;
+}
+
+.sidebar li a {
+    display: block;
+    padding-left: 20px;
+    background: url(../images/icon_tick.png) no-repeat 10px center;
+    color:#000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #0056b3;
+    font-weight: bold;
+    font-size: 12px;
+}
+.sidebar li a:hover, .sidebar li a:active, .sidebar li a.active{
+    background: url(../images/icon_tick_white.png) no-repeat 10px center, -webkit-linear-gradient(#3984d9, #428fe2, #3984d9);
+    background: url(../images/icon_tick_white.png) no-repeat 10px center, -o-linear-gradient(#3984d9, #428fe2, #3984d9);
+    background: url(../images/icon_tick_white.png) no-repeat 10px center, -moz-linear-gradient(#3984d9, #428fe2, #3984d9);
+    background: url(../images/icon_tick_white.png) no-repeat 10px center, linear-gradient(#3984d9, #428fe2, #3984d9);
+    color:#fff;
+}
+
+.sidebar li.down a, .sidebar li.down a:hover, .sidebar li.down a:active{
+    background: url(../images/arrow_down.png) no-repeat 8px center, -webkit-linear-gradient(#3984d9, #428fe2, #3984d9);
+    background: url(../images/arrow_down.png) no-repeat 8px center, -o-linear-gradient(#3984d9, #428fe2, #3984d9);
+    background: url(../images/arrow_down.png) no-repeat 8px center, -moz-linear-gradient(#3984d9, #428fe2, #3984d9);
+    background: url(../images/arrow_down.png) no-repeat 8px center, linear-gradient(#3984d9, #428fe2, #3984d9);
+    color: #fff;
+    padding-left: 25px;
+}
+
+.sidebar li.down .sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: none;
+    box-shadow: none;
+    border-bottom: 1px solid #0056b3;
+}
+ul.sub-menu {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+}
+.sub-menu li {
+    float: left;
+    width: 100%;
+}
+.sub-menu li a{
+    padding-left: 40px !important;
+    border: none;   
+    background:#eef7ff url(../images/icon_tick.png) no-repeat 25px center !important;
+    color:#000 !important;
+}
+.sub-menu li a:hover, .sub-menu li a:active, .sub-menu li a.active {
+    background: url(../images/icon_tick.png) no-repeat 25px center, -webkit-linear-gradient(#c9e6ff, #a7d3ff) !important;
+    background: url(../images/icon_tick.png) no-repeat 25px center, -o-linear-gradient(#c9e6ff, #a7d3ff) !important;
+    background: url(../images/icon_tick.png) no-repeat 25px center, -moz-linear-gradient(#c9e6ff, #a7d3ff) !important;
+    background: url(../images/icon_tick.png) no-repeat 25px center, linear-gradient(#c9e6ff, #a7d3ff) !important;
+}
+
+.content {
+    float: left;
+}
+.col-right {
+    width: 660px;
+}
+.title {
+    display: block;
+    width: 180px;
+    background: -webkit-linear-gradient(#0073c5, #0055b2);
+    background: -o-linear-gradient(#0073c5, #0055b2);
+    background: -moz-linear-gradient(#0073c5, #0055b2);
+    background: linear-gradient(#0073c5, #0055b2);
+    height: 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 15px 0 15px 10px;
+    margin: 0;
+    border-radius: 4px 4px 0 0;
+
+}
+.title-c {
+    display: block;
+    width: 620px;
+    background: url(../images/bg-case.png) no-repeat left -10px, -webkit-linear-gradient(#0077d3, #0092e2, #0077d3);
+    background: url(../images/bg-case.png) no-repeat left -10px, -o-linear-gradient(#0077d3, #0092e2, #0077d3);
+    background: url(../images/bg-case.png) no-repeat left -10px, -moz-linear-gradient(#0077d3, #0092e2, #0077d3);
+    background: url(../images/bg-case.png) no-repeat left -10px, linear-gradient(#0077d3, #0092e2, #0077d3);
+    height: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    vertical-align: middle;
+    padding: 15px 20px;
+    margin: 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.title-s {
+    display: block;
+    width: 620px;
+    background: url(../images/bg_title.png) no-repeat left -10px, -webkit-linear-gradient(#0077d3, #0092e2, #0077d3);
+    background: url(../images/bg_title.png) no-repeat left -10px, -o-linear-gradient(#0077d3, #0092e2, #0077d3);
+    background: url(../images/bg_title.png) no-repeat left -10px, -moz-linear-gradient(#0077d3, #0092e2, #0077d3);
+    background: url(../images/bg_title.png) no-repeat left -10px, linear-gradient(#0077d3, #0092e2, #0077d3);
+    height: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    vertical-align: middle;
+    padding: 15px 20px;
+    margin: 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.top {
+    margin-top: 15px;
+}
+.top a {
+    padding: 0 25px 15px 20px;
+    background: url(../images/icon_tick_circle.png) no-repeat left 2px;
+    color: #000;
+    font-weight: bold;
+}
+.top a:hover {
+    text-decoration: underline;
+}
+
+.row {
+    float: left;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+    width: 628px;
+    padding: 15px;
+    margin-bottom: 70px;
+    position: relative;
+    margin-top: 20px;
+    background: #fff
+}
+
+.row:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  right: 10px;
+  left: auto;
+  width: 50%;
+  top: 80%;
+  max-width:600px;
+  background: #777;
+  -webkit-box-shadow: 0 17px 7px rgba(119, 119, 119, 0.4);
+  -moz-box-shadow: 0 17px 7px rgba(119, 119, 119, 0.4);
+  box-shadow: 0 17px 7px rgba(119, 119, 119, 0.4);
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  transform: rotate(1deg);
+}
+
+.row .item {
+    float:left;
+    width: 628px;
+    padding: 30px 0;
+    background: #fff;
+}
+.row .item:first-child {
+    padding-top: 0;
+    background: url(../images/box-shadow.png) no-repeat center bottom;
+}
+
+.row .item h2{
+    color: #0064be;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.bottom-btn {
+    position: absolute;
+    bottom: -28px;
+    right: -1px;
+    padding: 5px 10px;
+    background: -webkit-linear-gradient(#599cd3, #2a6ab5);
+    background: -o-linear-gradient(#599cd3, #2a6ab5);
+    background: -moz-linear-gradient(#599cd3, #2a6ab5);
+    background: linear-gradient(#599cd3, #2a6ab5);
+    color: #fff;
+    border-radius: 0px 0 5px 5px;
+
+}
+.row .item .thumb {
+    float: left;
+    width: 270px;
+}
+.row .item .thumb img {
+    max-width: 100%;
+}
+.row .item .description {
+    float: left;
+    width: 338px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.big {font-size: 16px}
+.underline {
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.top-dotted {
+    border-top: 2px dotted #5598d4;
+    padding-top: 5px;
+    line-height: 1.5;
+    font-weight: 100;
+}

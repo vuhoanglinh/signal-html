@@ -1,0 +1,34 @@
+#footer{
+    clear: both;
+    margin-top: 30px;
+    width: 100%;
+    background-image: url(../images/bg-footer.jpg);
+    padding-top: 48px;
+}
+#footer ul{
+    float: left;
+    width: 100%;
+}
+#footer ul li{
+    float: left;
+    position: relative;
+}
+#footer ul li a{
+    font: 700 11px / 18px Osaka;
+    color: #424242;
+    text-decoration: none;
+    display: block;
+    padding: 0px 12px;
+    border-left: 1px solid #424242;
+}
+#footer ul li:last-child a{
+    border-right: 1px solid #424242;
+}
+#footer ul li a:hover{
+    color: #0063be;
+}
+#footer p{
+    font: 400 9px / 24px Meiryo;
+    color: #424242;
+    float: right;
+}

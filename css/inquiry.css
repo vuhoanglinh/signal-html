@@ -1,0 +1,180 @@
+.blue {
+    color: #0057cd;
+}
+.bold {
+    font-weight: bold;
+}
+.font12 {
+    font-size: 11px;
+    line-height: 1.5
+}
+
+.font14 {
+    font-size: 14px;
+    line-height: 1.5
+}
+
+.inquiry {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.form-group {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-group .form-left {
+    float: left;
+    width: 130px;
+    padding-top: 6px;
+}
+
+.form-group .form-right {
+    float: left;
+    width: 525px;
+}
+.form-group  p.form-right {
+    margin-top: 6px;
+    font-size: 16px;
+}
+.form-group input[type="text"], .form-group input[type="number"], .form-group input[type="email"], .form-group textarea, .form-group select {
+    float: left;
+    font-family: "Osaka", sans-serif;
+    width: 525px !important;
+    border: 2px solid #0073c5;
+    border-radius: 4px;
+    min-height: 25px;
+    background: -webkit-linear-gradient(#fff, #f3f3f3);
+    background: -o-linear-gradient(#fff, #f3f3f3);
+    background: -moz-linear-gradient(#fff, #f3f3f3);
+    background: linear-gradient(#fff, #f3f3f3);
+    margin: 0;
+    padding: 4px;
+    font-size: 14px;
+    font-weight: bold
+}
+.form-group select {
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background:url(../images/spin.png) no-repeat 500px center;
+    color: #515151;
+}
+::-webkit-input-placeholder {
+   color: #515151;
+   opacity: 1
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #515151;  
+   opacity: 1
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #515151; 
+    opacity: 1
+}
+
+:-ms-input-placeholder {  
+   color: #515151;  
+    opacity: 1
+}
+input[type="number"] {
+    position: relative;
+}
+
+/* Spin Buttons modified */
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background:url(../images/spin.png) no-repeat center center;
+    width: 1em;
+    position: absolute;
+    top: 0;
+    right: 7px;
+    opacity: 1;
+    bottom: 0;
+}
+
+.box{
+    float: left;
+    width: 640px;
+    padding: 10px;
+    background: #d5e7f2;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+
+.error {
+    border-color: #c50000 !important;
+    color: #c50000 !important;
+}
+
+
+.error::-webkit-input-placeholder {
+   color: #c50000;
+}
+
+.error:-moz-placeholder { /* Firefox 18- */
+   color: #c50000;  
+}
+
+.error::-moz-placeholder {  /* Firefox 19+ */
+   color: #c50000;  
+}
+
+.error:-ms-input-placeholder {  
+   color: #c50000;  
+}
+.text-error {
+    margin-top: 20px;
+    color: #c50000; 
+    margin-bottom: 5px;
+}
+.box-check {
+    background: #a2cee9;
+    border-radius: 4px;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+
+.box-error {
+    border-color: #c50000 !important;
+}
+
+.form-button {
+    margin: 20px 0;
+    float: left;
+    width: 100%;
+    text-align: center
+}
+
+.form-button button {
+    border: none;
+    background-color: transparent;
+}
+
+.check {
+    background: #fff;
+    padding-top: 3px;
+}
+
+.v-center {
+    padding-top: 130px !important;
+}
+
+.pt55 {
+    padding-top: 55px !important;
+}
